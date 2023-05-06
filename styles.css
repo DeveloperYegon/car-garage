@@ -1,0 +1,414 @@
+@keyframes test{
+    0%{background-image: url(images/1.jpeg);}
+    10%{background-image: url(images/3.jpeg);}
+    20%{background-image: url(images/5.jpeg);}
+    30%{background-image: url(images/6.jpeg);}
+    40%{background-image: url(images/7.jpeg);}
+    50%{background-image: url(images/8.jpeg);}
+    60%{background-image: url(images/9.jpeg);}
+    70%{background-image: url(images/10.jpeg);}
+    80%{background-image: url(images/11.jpeg);}
+    90%{background-image: url(images/rag4.jpg);}
+    100%{background-image: url(images/rag3.jpeg);}
+}
+body{
+    background-image: url(images/bcgrdimg.png);
+    background-size: cover; 
+    background-color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER CUSTOMIZATIONS*/
+
+header{
+    
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 13px 10px 10px 10px;
+}
+
+/*NAVIGATION LINKS CUSTOMS*/
+.nav-links{
+    background-color: rgb(255,0, 0);
+    
+}
+nav{
+    background-color: rgb(229, 56, 56);
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    font-size: 140%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-links a:hover{
+    color:black;
+    transition: 500ms;
+}
+/*QUOTE CUSTOMIZATIONS*/
+.page-quote{
+    color: white;
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 20px;
+    font-family: Century Gothic;
+    font-weight: 600;
+    
+}
+/*WELCOME SECTION CUSTOMS*/
+
+.welcome-section{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius:10px;
+    
+}
+.welcome-section img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.welcome-section img:hover{
+    transform: scale(1.02);
+    transition: 500ms;
+
+}
+#welcome-msg{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 2px 3px gray;
+    border-radius: 10px;
+}
+#welcome-msg:hover{
+    transform: scale(1.02);
+    transition: 500ms;
+}
+/* WHY CHOOSE US TABS CUSTOMS */
+.wcu{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 12px;
+
+    
+}
+.wcu-tabs{
+    display: flex;
+    gap: 35px;
+    text-align: center;
+}
+#exp{
+   box-shadow:  3px 3px 2px 3px gray;
+    
+}
+#exp:hover{
+    transform: scale(1.05);
+    transition: 500ms;
+}
+#val{
+    
+    box-shadow:  3px 3px 2px 3px gray;
+
+}
+#val:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+#fserv{
+    
+    box-shadow:  3px 3px 2px 3px gray;
+}
+#fserv:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+#integ{
+    
+    box-shadow:  3px 3px 2px 3px gray;
+}
+#integ:hover{
+    transform: scale(1.05);
+    transition: 500ms;
+}
+/*---------------------------------------------------------------------------------------------
+------------------animations------------------------------------------------------------------
+=============================================================================================*/
+.show-off-anime{
+    height: 300px;
+    margin-top: 10px;
+    background-color: rgb(255,255,255);
+    border: 2px black solid;
+    background-image: url(images/1.jpeg);
+    animation-name: test;
+    animation-duration: 50s;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/*==========================================================-====================================================
+                 ============== ABOUT US
+=============================================================-==============================================*/
+
+main{
+   /* max-width: 1520px;*/
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 1px;
+    border-radius: 10px;
+    margin-top: -50px;
+    
+}
+.heading{
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 56, 56);
+    width: 25%;
+
+}
+
+.about{
+    background-color: rgb(255,255,255);
+    width: 75%;
+}
+.about p{
+    padding: 10px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 525px 525px;
+    gap: 20px;
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.gallery img{
+    box-shadow: 2px 2px 2px 2px rgb(255,0,0);
+}
+.gallery img:hover{
+    transform: scale(1.03);
+    transition: 500ms;
+}
+
+
+/*========================================================================================================
+    =========                        SERVICES CUSTOMISATIONS                                         
+==========================================================================================================*/
+.servicesimgs{
+    background-color: rgb(255,255,255);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.servicesimgs div{
+    
+    box-shadow: 3px 3px 2px 3px gray;
+}
+
+
+/*===================================================================================================
+====================================== CONTACT CUSTOMIZATIONS=============================================
+================================================================================================ */
+.heading-c{
+    color: white;
+    background-color: rgb(255,0,0);
+    border-radius: 10px;
+    text-align: center;
+
+}
+.contact .notification{
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 2px;
+    border-radius: 10px;
+
+}
+.heading-c a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    transition: 500ms;
+    transform: sc(1.01);
+
+}
+
+.notification{
+    background-color:rgb(255,0,0);
+    border-radius: 10px;
+}
+.notification h3{
+    text-align:center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(0,255,0);
+}
+#email #textarea{
+    color: rgb(0,0,0);
+    border-radius: 5px;
+    height: 6px;
+    background-color: rgb(255,255,255);
+}
+.notif-form{
+    margin: 0 auto;
+
+
+}
+.notif-form div{
+    display: block ;
+    justify-content: center;
+}
+ #submit{
+    color:rgb(0,0,0,);
+    background-color: rgb(0,255,0);
+    width: 30%;
+    font-weight: 600px;
+    margin-bottom: 10px;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+
+}
+.icons img{
+    border-radius: 50%;
+    width: 50px;
+    border: 2px black solid;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================================================
+                  MEDIA QUERIES
+=======================================================================================*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 540px) {
+    h1{
+        font-size: 130%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+        gap: 0px;
+    }
+    
+    .nav-links a{
+        margin: 0 10px;
+    }
+    .page-quote{
+        font-size: 105%;
+    }
+    #welcome-msg{
+        font-size: 80%;
+    }
+    .welcome-section img{
+        display: none;
+    }
+    .wcu-tabs{
+        flex-direction: column;
+        font-size: 80%;
+    }
+    .wcu{
+        height: 780px; 
+    }
+    .wrapper{
+        flex-direction: column;
+        margin-top: -70px;
+    }
+    .heading{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .gallery{
+        display: none;
+    }
+    .servicesimgs{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+        
+    }
+    .heading-c{
+        width: 360px;
+    }
+    .image img{
+        width: 360px;    
+    }
+}
+@media only screen and (min-device-width : 540px) and (max-device-width : 1030px) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+       padding: 0;
+        align-items: center;
+        
+    }
+    .gallery img{
+        width: max-content;
+        height: max-content;
+    }
+    .servicesimgs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-device-width : 1280px) and (max-device-width : 1280px){
+    .servicesimgs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
